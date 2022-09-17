@@ -4,4 +4,4 @@ from .models import *
 
 admin.site.register(Person)
 admin.site.register(Function)
-admin.site.register(Emploees)
+admin.site.register(Employees)

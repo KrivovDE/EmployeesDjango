@@ -1,4 +1,4 @@
-"""TestTaskEmploees URL Configuration
+"""test_task_employees URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
@@ -14,12 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
-from emploees.views import *
+from emploees.routs import router
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/emploess/', EmploeesAPIView.as_view()),
-    path('api/v1/emploess/<int:pk>/', EmploeesAPIView.as_view()),
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
