@@ -2,7 +2,7 @@
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">Я backend разработчик сервисов на Python</h3> 
 
-<h1 align="center"><a href="https://job-in-it.herokuapp.com/" target="_blank">TestTaskEmployees</a> 
+<h1 align="center"><a href="https://job-in-it.herokuapp.com/" target="_blank">Employees</a> 
 
 <h2>Описание</h2>
 <h3>Задание "Раздел сотрудники".</h3> 
